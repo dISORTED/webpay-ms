@@ -1,0 +1,16 @@
+{
+  "name": "webpay-ms/webpay-ms",
+  "description": "Microservicio Webpay ↔ DoliCloud",
+  "type": "project",
+  "require": {
+    "php": "^8.0",
+    "transbank/transbank-sdk": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "license": "MIT"
+}
